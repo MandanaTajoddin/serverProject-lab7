@@ -1,0 +1,31 @@
+{
+  "name": "serverproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node":"8.11.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MandanaTajoddin/serverProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MandanaTajoddin/serverProject/issues"
+  },
+  "homepage": "https://github.com/MandanaTajoddin/serverProject#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.5",
+    "superagent": "^4.0.0-beta.5"
+  },
+  "devDependencies": {}
+}
